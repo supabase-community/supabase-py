@@ -24,6 +24,7 @@ from .lib.realtime_client import SupabaseRealtimeClient
 
 __all__ = [
     "acreate_client",
+    "AClientOptions",
     "AClient",
     "ASupabaseAuthClient",
     "ASupabaseStorageClient",
@@ -35,5 +36,6 @@ __all__ = [
     "PostgrestAPIError",
     "PostgrestAPIResponse",
     "StorageException",
+    "ClientOptions",
     "__version__",
 ]
